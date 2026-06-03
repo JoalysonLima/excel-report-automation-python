@@ -11,3 +11,13 @@ python src/clean_data.py
 ```
 
 The cleaned dataset is saved to `data/processed/clean_sales_data.xlsx`.
+
+## Analyze the cleaned sales data
+
+Run:
+
+```bash
+python src/analyze_data.py
+```
+
+The sales summary workbook is saved to `data/output/sales_summary.xlsx`.
