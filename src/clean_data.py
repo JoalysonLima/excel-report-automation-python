@@ -5,7 +5,10 @@ import re
 
 import pandas as pd
 
-from load_data import load_monthly_files
+try:
+    from .load_data import load_monthly_files
+except ImportError:
+    from load_data import load_monthly_files
 
 
 PROCESSED_DATA_DIRECTORY = Path(__file__).resolve().parents[1] / "data" / "processed"

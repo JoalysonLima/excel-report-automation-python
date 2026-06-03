@@ -21,3 +21,13 @@ python src/analyze_data.py
 ```
 
 The sales summary workbook is saved to `data/output/sales_summary.xlsx`.
+
+## Run the full pipeline
+
+Run:
+
+```bash
+python -m src.main
+```
+
+This creates the cleaned dataset, data quality report, sales summary workbook, and final formatted Excel report.
